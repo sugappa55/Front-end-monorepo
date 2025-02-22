@@ -8,7 +8,7 @@ const FormState = (props: Props) => {
     name: string;
     password: string;
     gender: "male" | "female" | "other";
-    study: "tenth" | "12th" | "UG" | "PG";
+    study: "ssc" | "12th" | "UG" | "PG";
   }>({ name: "", password: "", gender: "male", study: "ssc" });
 
   const onSubmit = (e: FormEvent<HTMLFormElement>) => {

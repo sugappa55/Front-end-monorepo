@@ -1,3 +1,19 @@
 .red {
   color: red;
 }
+
+.green {
+  color: green;
+}
+
+.box {
+  height: 30vh;
+  background-color: teal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box:not(:first-child) {
+  margin-top: 1rem;
+}
